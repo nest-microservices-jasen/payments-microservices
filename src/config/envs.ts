@@ -12,7 +12,7 @@ interface EnvVars {
 
   NATS_SERVERS: string[];
 }
-
+//* OTOD
 const envsSchema = joi.object({
   PORT: joi.number().required(),
 
