@@ -1,0 +1,44 @@
+POST http://localhost:3003/payments/create-payment-session
+Content-Type: application/json
+
+{
+   "orderId":"XZY123",
+   "currency":"USD",
+   "items": [{
+    "name":"teclado",
+    "price":100,
+    "quantity":2
+   },
+   {
+    "name":"teclado mecanico",
+    "price":100,
+    "quantity":2
+   }
+   
+   
+   ]
+}
+
+###
+GET http://localhost:3003/payments/success
+Content-Type: application/json
+
+{
+
+}
+
+###
+GET http://localhost:3003/payments/cancel
+Content-Type: application/json
+
+{
+
+}
+
+###
+POST http://localhost:3003/payments/webhook
+Content-Type: application/json
+
+{
+
+}
